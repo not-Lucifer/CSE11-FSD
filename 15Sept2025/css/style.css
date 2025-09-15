@@ -11,3 +11,8 @@ h1{
     margin: none;
     padding:0;
 }
+#101{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
