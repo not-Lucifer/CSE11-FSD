@@ -1,0 +1,19 @@
+.button{
+    margin: auto;
+    margin-top: 200px;
+    padding: auto;
+    align-items: center;
+    text-align: center;
+}
+#b1{
+    background-color: #f67004;
+    color: white;
+}
+#b2{
+    background-color: #383be5;
+    color:white;
+}
+#b3{
+    background-color: #2fee6c;
+    color:white;
+}
