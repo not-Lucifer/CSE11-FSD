@@ -7,12 +7,9 @@
     height: 300px;
     width: 500px;
     margin: auto;
+    padding: auto;
     background-color: blue;
     color: white;
     align-items: center;
     border-radius: 20px;
-}
-#box.p{
-    padding: auto;
-
 }
