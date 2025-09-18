@@ -6,6 +6,12 @@
     background-color: white;
     border-radius: 5px;
 }
-#form input[type="text"],#form input[type="password"]{
+#form input{
     background-color: aqua;
+}
+#remarks{
+    background-color: aqua;
+}
+#p1{
+    background-color: white;
 }
