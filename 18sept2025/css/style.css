@@ -1,0 +1,11 @@
+*{
+    background-color: turquoise;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#form{
+    background-color: white;
+    border-radius: 5px;
+}
+#form input[type="text"],#form input[type="password"]{
+    background-color: aqua;
+}
