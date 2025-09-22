@@ -26,14 +26,74 @@
             background-color: #ffa200;
             color: black;
         }
+        .flex-container {
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+            background-color: #000000;
+        }
+        .item1 img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .item2 {
+            flex: 1;
+            color: white;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            text-align: justify;
+            font-size: 18px;
+        }
+
     </style>
 </head>
 <body>
     <nav>
-        <a href="index.html">Home</a>
+        <a href="navbar.html">Home</a>
         <a href="about.html">About</a>
         <a href="services.html">Services</a>
         <a href="contact.html">Contact</a>
     </nav>
+    <div class="flex-container">
+        <div class ="item1">
+            <img src="download.jpg" alt="anime">
+        </div>
+        <div class="item2">
+            <h1>Demon Slayer</h1>
+            <p>
+               Demon Slayer (Kimetsu no Yaiba) is a popular Japanese media franchise about a boy named Tanjiro Kamado who joins the Demon Slayer Corps, an organization of humans who hunt demons, after his family is killed and his sister is turned into a demon. The franchise includes a highly acclaimed anime series, animated films like Demon Slayer: Kimetsu no Yaiba – The Movie: Infinity Castle, and a manga series upon which the anime is based.  
+
+            </p>
+
+        </div>
+
+    </div>
+    <div class="flex-container" style="background-color: #333;">
+        <div class ="item1">
+            <img src="aot.jpg" alt="anime" height="261px" width="193px">
+        </div>
+        <div class="item2">
+            <h1>Attack on Titan</h1>
+            <p>
+               Attack on Titan (Shingeki no Kyojin) is a Japanese manga series written and illustrated by Hajime Isayama. The story is set in a world where humanity resides within enormous walled cities to protect themselves from Titans, gigantic humanoid creatures that devour humans. The series follows Eren Yeager, his adoptive sister Mikasa Ackerman, and their friend Armin Arlert as they join the military to fight the Titans after their hometown is destroyed and Eren's mother is killed. The manga has been adapted into an anime series, which has gained widespread acclaim for its intense action, complex characters, and thought-provoking themes.
+
+            </p>
+
+        </div>
+    </div>
+    <div class="flex-container">
+        <div class ="item1">
+            <img src="onepiece.jpg" alt="anime" height="261px" width="193px">
+        </div>
+        <div class="item2">
+            <h1>One Piece</h1>
+            <p>
+               One Piece is a Japanese manga series written and illustrated by Eiichiro Oda. It has been serialized in Shueisha's Weekly Shōnen Jump magazine since July 1997, and has been adapted into an anime series produced by Toei Animation since 1999. The story follows Monkey D. Luffy, a young pirate who gains the ability to stretch his body like rubber after eating a Devil Fruit. Luffy sets out on a journey to find the legendary treasure known as "One Piece" and become the Pirate King. Along the way, he assembles a diverse crew of pirates known as the Straw Hat Pirates, each with their own unique abilities and dreams. The series is known for its adventurous spirit, humor, and themes of friendship and freedom.
+
+            </p>
+
+        </div>
+    </div>
 </body>
 </html>
