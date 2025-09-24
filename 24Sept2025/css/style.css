@@ -20,3 +20,22 @@
     border-radius: 15px;
     text-align: justify;
 }
+.item3{
+    background-color: lightpink;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 50%;
+    text-align: justify;
+}
+.item4{
+    background-color: lightyellow;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 50%;
+    text-align: justify;
+}
+img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
