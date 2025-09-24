@@ -1,0 +1,22 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightblue;
+}
+
+.item1{
+    background-color: coral;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    text-align: justify;
+}
+.item2{
+    background-color: lightgreen;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    text-align: justify;
+}
