@@ -4,8 +4,10 @@
     box-sizing: border-box;
 }
 body{
-    background: linear-gradient(135deg, #f5f7fa, #5493fa);
+    background: linear-gradient(60deg, #f5f7fa, #5493fa);
     background-repeat: no-repeat;
     font-family: Arial, sans-serif;
     padding: 20px;
+    height: 100vh;
+    width: 100vw;
 }
