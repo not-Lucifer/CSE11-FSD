@@ -8,13 +8,29 @@
     width: 100px;
     height: 100px;
     background-color: red;
-    animation: move 2s infinite alternate;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: color 2s infinite alternate;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-@keyframes move {
+@keyframes color {
     0% {
-        transform: translateX(0);
+        background-color: red;
     }
+    25% {
+        background-color: orange;
+    }
+    50% {
+        background-color: green;
+    }
+    75% {
+        background-color: yellow;
+    }
+
     100% {
-        transform: translateX(300px);
+        background-color: blue;
     }
 }
