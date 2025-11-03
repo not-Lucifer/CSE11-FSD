@@ -1,0 +1,20 @@
+.animate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: move 2s infinite alternate;
+}
+@keyframes move {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(300px);
+    }
+}
