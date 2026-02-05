@@ -1,1 +1,11 @@
 console.log("Hello, World!");
+let num = 100;
+let str = "Hello world";
+let und;
+let nll = null;
+let bool = true;
+console.log(typeof num);
+console.log(typeof str);
+console.log(typeof und);
+console.log(typeof nll);
+console.log(typeof bool);
